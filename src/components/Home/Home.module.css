@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.button {
+    padding: 5px;
+}
+.name {
+    color: #E31B6D;
+}

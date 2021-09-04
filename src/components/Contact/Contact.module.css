@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.image {
+    width: 151px;
+}

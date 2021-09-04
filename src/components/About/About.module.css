@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: #F5F6F7;
+    width: 585px;
+    padding: 0 1.5em;
+}
