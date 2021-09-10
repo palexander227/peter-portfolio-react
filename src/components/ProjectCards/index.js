@@ -16,8 +16,8 @@ const ProjectCards = () => {
                             <ProjectCard
                                 title={item.title}
                                 summary={item.summary}
-                                demo={item.demo}
-                                readMore={item.readMore}
+                                repos={item.repos}
+                                visitSite={item.visitSite}
                                 image={item.image}
                             />
                         </div>

@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import styles from './ProjectCard.module.css';
 
 
-const ProjectCard = ({ title, summary, demo, readMore, image }) => {
+const ProjectCard = ({ title, summary, repos, visitSite, image }) => {
   const openUrl = (url) => {
     window.open(url, '_blank');
   };
@@ -31,12 +31,14 @@ const ProjectCard = ({ title, summary, demo, readMore, image }) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        {demo && <Button size="small" color="primary" onClick={() => openUrl(demo)}>
-          Demo
+      {visitSite && <Button size="small" color="primary"  onClick={() => openUrl(visitSite)}>
+          Visit Site
         </Button>}
-        {readMore && <Button size="small" color="primary"  onClick={() => openUrl(readMore)}>
-          Read more
-        </Button>}
+        {repos && repos.map((repo, index) => (
+           <Button size="small" color="primary" onClick={() => openUrl(repo.link)}>
+            {repo.name}
+          </Button>
+        ))}
       </CardActions>
     </Card>
   )
