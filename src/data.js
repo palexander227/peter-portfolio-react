@@ -62,8 +62,12 @@ const data = {
             visitSite: "https://blog.thoughtmuseum.com",
             repos: [
                 {
-                    name: "Repo",
-                    link: ""
+                    name: "React Repo",
+                    link: "https://github.com/palexander227/tm-tech-blogging-node"
+                },
+                {
+                    name: "API Repo",
+                    link: "https://github.com/palexander227/tm-tech-blogging-api"
                 }
             ],
             image: "https://portfolio-react-2021.s3.us-west-1.amazonaws.com/images/projects/blog.png",
@@ -75,7 +79,7 @@ const data = {
             repos: [
                 {
                     name: "Repo",
-                    link: ""
+                    link: "https://github.com/palexander227/zen-tracker"
                 }
             ],
             image: "https://portfolio-react-2021.s3.us-west-1.amazonaws.com/images/projects/workout-app.png",
