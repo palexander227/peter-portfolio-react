@@ -15,7 +15,9 @@ const ProjectCard = ({ title, summary, repos, visitSite, image }) => {
   };
   return (
     <Card className={styles.card}>
-      <CardActionArea>
+      <CardActionArea
+        onClick={() => visitSite && openUrl(visitSite)}
+      >
         <CardMedia
           className={styles.media}
           image={image}
@@ -35,7 +37,7 @@ const ProjectCard = ({ title, summary, repos, visitSite, image }) => {
           Visit Site
         </Button>}
         {repos && repos.map((repo, index) => (
-           <Button size="small" color="primary" onClick={() => openUrl(repo.link)}>
+           <Button key={index} size="small" color="primary" onClick={() => openUrl(repo.link)}>
             {repo.name}
           </Button>
         ))}

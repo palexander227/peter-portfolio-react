@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from './About.module.css';
+import Image from 'next/image'
 
 const About = () => {
     return (
         <div className={styles.container}>
-            <img src='https://portfolio-react-2021.s3.us-west-1.amazonaws.com/images/peter-about.jpg' alt="Peter" />
+            <Image  height={251} width={584} src={'/images/peter-about.jpg'} alt="Peter" />
             <div className={styles.card}>
                 <h2>Peter Alexander - CIO &amp; Director of Education</h2>
                 <p>

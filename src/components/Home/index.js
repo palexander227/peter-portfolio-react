@@ -10,7 +10,7 @@ const Home = () => {
             <div>Hello, I&apos;m <span className={styles.name}>Peter Alexander.</span></div>
             <div>I&apos;m a full-stack developer/consultant.</div>
             <div className={styles.button}>
-                <Link href='/projects'>
+                <Link passHref={true} href='/projects'>
                     <Button variant="outlined">View my work <ArrowForwardIcon /></Button>
                 </Link>
             </div>

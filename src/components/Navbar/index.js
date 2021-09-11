@@ -20,13 +20,14 @@ const Navbar = () => {
                 <li className={linkClass('/about')}><Link href="/about">About</Link></li>
                 <li className={linkClass('/projects')}><Link href="/projects">Projects</Link></li>
                 <li className={linkClass('/contact')}><Link href="/contact">Contact</Link></li>
-                <li className={linkClass('https://portfolio-react-2021.s3.us-west-1.amazonaws.com/pdfs/Peter_s_Resume.pdf')}>
+                <li className={linkClass('/contact')}><Link href="/resume">Resume Test</Link></li>
+                {/* <li className={linkClass('https://portfolio-react-2021.s3.us-west-1.amazonaws.com/pdfs/Peter_s_Resume.pdf')}>
                     <Link href="https://portfolio-react-2021.s3.us-west-1.amazonaws.com/pdfs/Peter_s_Resume.pdf">
                         <a target="_blank">
                             Resume
                         </a>
                     </Link>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )
