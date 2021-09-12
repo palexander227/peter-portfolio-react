@@ -2,7 +2,7 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: [
-      'url.s3.amazonaws.com'
+      'portfolio-react-2021.s3.us-west-1.amazonaws.com'
     ]
   }
 }
