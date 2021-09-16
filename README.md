@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It consists in a portfolio of work that I submitted during the 2021 UC Berkeley summmer coding bootcamp. The actual deployed portfolio can be viewed here: [react-portfolio](https://peter-portfolio-react.vercel.app/)
 
 ## Getting Started
 
