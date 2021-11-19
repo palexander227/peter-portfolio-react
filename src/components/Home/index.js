@@ -11,7 +11,7 @@ const Home = () => {
             <div>I&apos;m a full-stack developer/consultant.</div>
             <div className={styles.button}>
                 <Link passHref={true} href='/projects'>
-                    <Button variant="outlined">View my work <ArrowForwardIcon /></Button>
+                    <Button width="16" variant="outlined">View my work <ArrowForwardIcon /></Button>
                 </Link>
             </div>
         </div>

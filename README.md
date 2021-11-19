@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## To build to Elastic Beanstalk:
+1. run `npm run build`
+2. Highlight ".next" and "package.json" and right click to zip.
+3. Upload the zip to elastic beanstalk
+
 ## Getting Started
 
 First, run the development server:

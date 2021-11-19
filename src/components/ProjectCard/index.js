@@ -11,7 +11,13 @@ import styles from './ProjectCard.module.css';
 
 const ProjectCard = ({ title, summary, repos, visitSite, image }) => {
   const openUrl = (url) => {
-    window.open(url, '_blank');
+    
+    if (url.startsWith('https')) {
+      window.open(url, '_blank');
+    } else {
+      window.location.href = url;
+    }
+    
   };
   return (
     <Card className={styles.card}>

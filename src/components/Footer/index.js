@@ -9,16 +9,16 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <a href="https://github.com/palexander227"  target="_blank" rel="noreferrer">
-        <GitHubIcon />&nbsp;Github
+        <GitHubIcon width="16"/>&nbsp;Github
       </a>
       <a href="https://www.linkedin.com/in/peter-alexander-4a444127"  target="_blank" rel="noreferrer">
-        <LinkedIn />&nbsp;LinkedIn
+        <LinkedIn width="16"/>&nbsp;LinkedIn
       </a>
       <a href="https://ctan.org/?lang=en"  target="_blank" rel="noreferrer">
-        <CreateIcon />&nbsp;CTAN
+        <CreateIcon width="16"/>&nbsp;CTAN
       </a>
       <a href="https://tug.org"  target="_blank" rel="noreferrer">
-        <FunctionsIcon />&nbsp;TUG
+        <FunctionsIcon width="16"/>&nbsp;TUG
       </a>
     </footer>
   )

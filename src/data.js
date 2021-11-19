@@ -6,7 +6,7 @@ const data = {
         {
             title: "Thought Museum",
             summary: "Username: teacher Password: ReeMSxcw63 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
-            visitSite: "https://thoughtmuseum-app.azurewebsites.net",
+            visitSite: "http://35.164.183.41",
             repos: [
                 {
                     name: "Repo",

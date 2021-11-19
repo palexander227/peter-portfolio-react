@@ -3,9 +3,17 @@ import styles from './About.module.css';
 import Image from 'next/image'
 
 const About = () => {
+    const imageLoader = ({src, width, quality}) => {
+        return `https://portfolio-react-2021.s3.us-west-1.amazonaws.com/images/${src}`;
+    };
     return (
         <div className={styles.container}>
-            <Image  height={251} width={584} src={'https://portfolio-react-2021.s3.us-west-1.amazonaws.com/images/peter-about.jpg'} alt="Peter" />
+            <Image  
+            loader={imageLoader}
+            src="peter-about.jpg"
+            height={251} width={584} 
+             alt="Peter" />
+             
             <div className={styles.card}>
                 <h2>Peter Alexander - CIO &amp; Director of Education</h2>
                 <p>
